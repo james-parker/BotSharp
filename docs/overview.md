@@ -14,20 +14,20 @@ From the chart ahead we can see that based on botsharp you can launch your own c
 
 BotSharp let you build conversational interfaces on top of your products and services by providing a natural language understanding (NLU) engine to process and understand natural language inut. 
 
-Tradational computer interfaces require structured data, which makes the use of these interfaces unnatural and sometime difficult. While machine learning interfaces are data driven, which computer can find the logic or information behind the unstructured data(sentences).
+Tradational computer interfaces require structured data, which makes the use of these interfaces unnatural and sometime difficult. While machine learning interfaces are data driven, which computer can find the logic or information behind the unstructured data (sentences).
 
-For example. an simple request may like "Can you play country music?". Other users may ask "play some romantic songs." 
+For example. a simple request like "Can you play country music?". Other users may ask "play some romantic songs". 
 
 Even with this simple question, you can see conversational experience are hard to implemented. Interpreting and processing natural language requires a very robust language parser that has the capable of understanding the nuances of language.
 
-Your code would have to handle all these different types of requests ro carry out the same logic: looking up some forecast information for a feature. For this reason, a traditional computer interface would tend to force users to input a well-known, standard request at the detriment of the user experience, because it's just easier.
+Your code would have to handle all these different types of requests to carry out the same logic: looking up some forecast information for a feature. For this reason, a traditional computer interface would tend to force users to input a well-known, standard request at the detriment of the user experience, because it's just easier.
 
-However, BotSharp lets you easily achieve a conversational user experience by handling the natural language understanding (NLU) for you.When you use BotSharp, you can create agents that can understand the meaning of natural language and the nuances and trainslate that to structured meaning your software can understand.
+However, BotSharp lets you easily achieve a conversational user experience by handling the natural language understanding (NLU) for you. When you use BotSharp, you can create agents that can understand the meaning of natural language and the nuances and trainslate that to structured meaning your software can understand.
 
 ## Agent
 An agent helps you process user sentences (unstructure data) into structure data that you can use to return an appropriate response.
 ![](./static/screenshots/Agent_sent.png) 
-When users say something, your agent matches the user utterance to an exactly matched intent or closely matched intent.  Besides, the agent will return extra information about named entities which you need from the utterance. This can be name, location date or a host of other data categories (entities). You can define both the intent and the entities in your training data sets. You can also define what else to extact in your training phares as well.Then you can send a response to user to continue the conversation or to just end the conversation. It is very simple to create your own agent in BotSharp. The only thing you need is to assign you agent a name and a brief discription.
+When users say something, your agent matches the user utterance to an exactly matched intent or closely matched intent.  Besides, the agent will return extra information about named entities which you need from the utterance. This can be name, location date or a host of other data categories (entities). You can define both the intent and the entities in your training data sets. You can also define what else to extact in your training phares as well. Then you can send a response to user to continue the conversation or to just end the conversation. It is very simple to create your own agent in BotSharp. The only thing you need is to assign you agent a name and a brief discription.
 ![](./static/screenshots/Agent_Workflow.png) 
 
 
